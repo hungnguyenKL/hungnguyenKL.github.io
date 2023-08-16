@@ -217,6 +217,10 @@ axios.post(`https://api.telegram.org/bot${BotToken}/${method}`, {
                     'web_app': {
                         'url': 'https://hungnguyenkl.github.io/'
                     }
+                }],
+                [{
+                    'text': "⬅️ Back to Menu",
+                    'callback_data': "back"
                 }]
             ]
         },
