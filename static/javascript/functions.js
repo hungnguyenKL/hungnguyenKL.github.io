@@ -219,8 +219,8 @@ axios.post(`https://api.telegram.org/bot${BotToken}/${method}`, {
                     }
                 }],
                 [{
-                    'text': "⬅️ Back to Menu",
-                    'callback_data': "back"
+                    'text': "❌ Close",
+                    'callback_data': "close"
                 }]
             ]
         },
