@@ -209,10 +209,6 @@ axios.post(`https://api.telegram.org/bot${BotToken}/${method}`, {
                     'pay': true
                 }],
                 [{
-                    'text': "⭕️ Cancel pay",
-                    'callback_data': "pay||cancel"
-                }],
-                [{
                     'text': "♻️ Back to NFT Market",
                     'web_app': {
                         'url': 'https://hungnguyenkl.github.io/'
